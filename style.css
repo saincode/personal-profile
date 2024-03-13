@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+body{
+    background-color:#F1F1F1;
+}
+
+.navbar .name{
+    width: 50%;
+}
+.name{
+    color:#fff;
+   
+}
+
+.navbar{
+    background-color:#0D7789;
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px; 
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    width: 70%;
+    text-align: right;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    background-color:#fff;
+    padding: 10px;
+    border-radius: 30px;
+    color:#0D7789 ;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 6px;
+    
+
+
+}
+
+.navbar2 .name button {
+    font-weight:500px;
+}
+
+.navbar2{
+    height:500px;
+    width: 100%;
+    background-color: #42BBCF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name h1{
+    font-size: 100px;
+    font-family: "Merriweather";
+    color: #fff;
+}
+
+.name p{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 5px
+}
+
+.profile img{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    border-radius: 50%;
+    
+    border: 7px solid white;
+
+}
+
+.story{
+    height: 100px;
+    width: 100%;
+    background-color:#0D7789;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+
+   
+}
+
+.story h3{
+    margin-bottom: 3px;
+}
+.story i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
